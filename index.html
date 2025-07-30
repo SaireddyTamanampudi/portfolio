@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Kumara Reddy | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #0f172a, #1e293b);
+      color: #f1f5f9;
+      overflow-x: hidden;
+    }
+    header {
+      height: 100vh;
+      background: linear-gradient(to right, #3b82f6, #9333ea);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      animation: fadeInDown 1.5s ease-in-out;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      font-family: 'Orbitron', sans-serif;
+    }
+    header p {
+      font-size: 1.5rem;
+      margin: 20px 0;
+    }
+    .btn {
+      padding: 12px 30px;
+      background-color: #0f172a;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.4s ease;
+    }
+    .btn:hover {
+      background-color: #1e40af;
+    }
+    section {
+      padding: 70px 20px;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 1s ease;
+    }
+    section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #38bdf8;
+    }
+    ul li::before {
+      content: '🎯';
+      margin-right: 10px;
+    }
+    .card {
+      background: #1e293b;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    footer {
+      text-align: center;
+      background: #0f172a;
+      color: #cbd5e1;
+      padding: 25px;
+    }
+    a {
+      color: #60a5fa;
+    }
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="animate__animated animate__fadeInDown">Tamanampudi J V Sai Kumara Reddy</h1>
+    <p class="animate__animated animate__fadeInUp">Web Developer | ML Enthusiast | CSE Student</p>
+    <a href="#about" class="btn animate__animated animate__fadeInUp">Explore More</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate B.Tech Computer Science student at SRKR Engineering College with a strong interest in Web Development and Machine Learning. I’ve built projects like a hospital appointment system and earned certifications in Cloud, Cybersecurity, and Python.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Languages: Python, C (DSA), SQL</li>
+      <li>Web: HTML, CSS</li>
+      <li>ML: TensorFlow, Scikit-learn, Pandas, NumPy</li>
+      <li>Tools: Jupyter, Google Colab</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Hospital Appointment Booking System</h3>
+      <p>Designed a responsive web app for booking hospital appointments using Firebase for real-time data and Netlify for deployment.</p>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Python Essentials 1 & 2 – Cisco</li>
+      <li>Introduction to Cybersecurity – Cisco</li>
+      <li>Cloud Computing – Google</li>
+      <li>AWS Solutions Architect – Udemy</li>
+      <li>Kubernetes Dev – Udemy</li>
+      <li>Cyber Simulation – Deloitte</li>
+      <li>Prompt Engineering – Let’s Upgrade</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:j.saireddy122005@gmail.com">j.saireddy122005@gmail.com</a></p>
+    <p>Phone: 9849331582</p>
+    <p>GitHub: <a href="https://github.com/SaireddyTamanampudi" target="_blank">SaireddyTamanampudi</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sai Kumara Reddy</p>
+  </footer>
+</body>
+</html>
